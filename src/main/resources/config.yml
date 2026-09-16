@@ -1,0 +1,69 @@
+# ============================================
+#   BRLobby - Configuration
+# ============================================
+
+# --- Lobby Settings ---
+lobby:
+  max-players: 10
+  min-players: 2
+  countdown-seconds: 10
+  auto-start-when-full: true
+  welcome-message: "&a🎮 به Battle Royale خوش آمدید!"
+  waiting-message: "&e⏳ منتظر بازیکنای بیشتر... &b(%current%/%max%)"
+  countdown-message: "&6⚔ شروع بازی در &c%seconds% &6ثانیه..."
+  started-message: "&a✅ بازی شروع شد!"
+  broadcast-interval: 30
+
+# --- Chat Settings ---
+chat:
+  enabled: true
+  prefix: "&7[&bLobby&7]"
+  format: "&f%player%&7: &f%message%"
+  allow-private-msg: true
+
+# --- Scoreboard Settings ---
+scoreboard:
+  enabled: true
+  title: "&6&l🎮 BATTLE ROYALE"
+  update-interval: 20
+
+# --- Tab Settings ---
+tab:
+  enabled: true
+  header: "&6&l🎮 Battle Royale"
+  footer: "&7بازیکنا: &b%current%&7/&b%max%"
+
+# --- Plane Settings (Phase 2) ---
+plane:
+  default-speed: 1.0
+  plane-height: 100
+  parachute-fall-speed: -0.3
+  engine-sound: ENTITY_MINECART_RIDING
+
+# --- Loot Settings (Phase 2) ---
+loot:
+  chest-refill-seconds: 60
+  tiers:
+    common:
+      weight: 60
+    rare:
+      weight: 30
+    legendary:
+      weight: 10
+
+# --- Border Settings (Phase 2) ---
+border:
+  initial-radius: 500
+  final-radius: 50
+  shrink-duration: 600
+  shrink-steps: 10
+
+# --- Reward Settings (Phase 2) ---
+rewards:
+  win-material: DIAMOND
+  win-amount: 10
+  win-xp: 200
+  kill-xp: 50
+
+# --- Arena Storage (Don't touch) ---
+arenas: {}
