@@ -1,0 +1,17 @@
+name: BRLobby
+version: 1.0.0
+main: com.example.br.BattleRoyale
+api-version: '1.21'
+author: You
+description: Battle Royale Lobby - Base plugin for BR gamemode
+
+commands:
+  br:
+    description: Battle Royale admin commands
+    usage: /br <help|create|delete|list|setlobby|setspawn|start|stop|reload|setup|info>
+    permission: br.admin
+    permission-message: "§cشما دسترسی ادمین ندارید."
+  bruser:
+    description: Battle Royale player commands
+    usage: /bruser <help|join|leave|stats|top|chat|msg>
+    aliases: [bru, lobby]
